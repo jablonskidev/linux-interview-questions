@@ -9,8 +9,11 @@ This is not for learners who are new to Linux. To keep the articles short and sk
 ## What you will get
 
 In each article, you will get:
-- Skimmable questions, answers, and explanations
-- Hands-on excercises
+- An interview question
+- A short version of the answer
+- A deeper explanation of the answer
 - A quiz
 
 ## Questions
+
+1. [What is the Linux file system hierarchy and how is it organized?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md)
