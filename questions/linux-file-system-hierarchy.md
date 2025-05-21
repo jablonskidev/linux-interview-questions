@@ -1,5 +1,20 @@
 # What is the Linux file system hierarchy and how is it organized?
 
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#answer)
+- [Explanation](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#explanation)
+    - [Core directory structure](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#core-directory-structure)
+    - [Standard directories: purpose and content](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#standard-directories-purpose-and-content)
+    - [Core principles of Linux filesystem organization](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#core-principles-of-linux-filesystem-organization)
+    - [File permissions and ownership](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#file-permissions-and-ownership)
+    - [Security best practices](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#security-best-practices)
+    - [Distribution variations](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#distribution-variations)
+    - [Filesystem evolution trends](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#filesystem-evolution-trends)
+    - [Common troubleshooting scenarios](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#common-troubleshooting-scenarios)
+    - [Best practices](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#best-practices)
+    - [Applying knowledge in different contexts](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#applying-knowledge-in-different-contexts)
+- [Key takeaways](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#key-takeaways)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#quiz)
+
 ## Answer
 
 The Linux file system follows a hierarchical structure starting at the root directory (`/`) with standardized locations for different types of files:
