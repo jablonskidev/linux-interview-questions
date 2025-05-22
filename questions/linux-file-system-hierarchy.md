@@ -59,7 +59,7 @@ Linux follows the Filesystem Hierarchy Standard (FHS) with a hierarchical struct
 |-----------|---------|
 | `/bin` | Essential commands needed for system bootup and repair (bash, cp, ls) |
 | `/sbin` | System administration commands primarily for root (fdisk, ifconfig) |
-| `/lib` | Shared libraries needed by programs in /bin and /sbin |
+| `/lib` | Shared libraries needed by programs in `/bin` and `/sbin` |
 | `/boot` | Files required to boot the system (kernel, initramfs, bootloader) |
 
 #### Configuration and variable data
@@ -86,7 +86,7 @@ Linux follows the Filesystem Hierarchy Standard (FHS) with a hierarchical struct
 |-----------|---------|
 | `/usr` | Secondary hierarchy for read-only user data |
 | `/usr/bin` | Most user commands |
-| `/usr/lib` | Libraries for programs in /usr/bin |
+| `/usr/lib` | Libraries for programs in `/usr/bin` |
 | `/usr/local` | Locally compiled software |
 | `/usr/share` | Architecture-independent data |
 | `/opt` | Self-contained, add-on application packages |
@@ -259,7 +259,7 @@ For DevOps engineers:
 - Permission structures protect system integrity while enabling appropriate access.
 - Modern trends emphasize immutability, separation of configuration, and containerization.
 - Understanding the principles behind the hierarchy helps adapt to any Linux environment.
-- Understanding the fundamental principles of the Linux file system hierarchy will serve you well regardless of distribution changes or future evolution. By focusing on the rationale behind the organization rather than just the current paths, your knowledge will remain relevant as Linux continues to evolve.
+- Understanding the fundamental principles of the Linux file system hierarchy will serve you well regardless of distribution changes or future evolution.
 
 ## Quiz
 
