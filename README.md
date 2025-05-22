@@ -11,7 +11,7 @@ This is not for learners who are new to Linux. To keep the articles short and sk
 In each article, you will get:
 - An interview question
 - A short version of the answer
-- A deeper explanation of the answer
+- Background information
 - A quiz
 
 ## Questions
