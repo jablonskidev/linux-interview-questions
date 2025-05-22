@@ -1,7 +1,7 @@
 # What is the Linux file system hierarchy and how is it organized?
 
 - [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#answer)
-- [Explanation](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#explanation)
+- [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#background-information)
     - [Core directory structure](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#core-directory-structure)
     - [Standard directories: purpose and content](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#standard-directories-purpose-and-content)
     - [Core principles of Linux filesystem organization](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#core-principles-of-linux-filesystem-organization)
@@ -26,7 +26,7 @@ The Linux file system follows a hierarchical structure starting at the root dire
 
 This organization follows principles of separation of concerns, predictable locations, and security by design to create a logical and maintainable system structure.
 
-## Explanation
+## Background information
 
 ### Core directory structure
 Linux follows the Filesystem Hierarchy Standard (FHS) with a hierarchical structure starting at the root (`/`):
