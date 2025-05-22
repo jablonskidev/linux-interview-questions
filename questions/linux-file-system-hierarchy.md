@@ -14,6 +14,7 @@
     - [Applying knowledge in different contexts](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#applying-knowledge-in-different-contexts)
 - [Key takeaways](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#key-takeaways)
 - [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#quiz)
+- [Next steps](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#next-steps)
 
 ## Answer
 
@@ -329,3 +330,7 @@ For DevOps engineers:
 7. B - `/proc` contains virtual files representing system and kernel information, including process details.
 8. C - Sensitive configuration files should typically be owned by `root:root` with `644` (world-readable) or `640` (group-readable) permissions.
 9. C - Separation of concerns is a core principle of Linux filesystem organization
+
+## Next steps
+
+See more [Linux interview questions](https://github.com/jablonskidev/linux-interview-questions/blob/main/README.md).
