@@ -17,6 +17,7 @@
   - [Advanced commands](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#advanced-commands)
   - [File operations through links](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#file-operations-through-links)
 - [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#quiz)
+- [Next steps](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#next-steps)
 
 ## Answer
 
