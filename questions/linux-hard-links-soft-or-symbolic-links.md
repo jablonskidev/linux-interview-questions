@@ -247,49 +247,43 @@ Editing through symlink.txt also modifies the original data
 - c) Unchanged files share the same inode, saving space
 - d) They're easier to create than symbolic links
 
-**8. Which find command locates broken symbolic links?**
-- a) `find /path -type l -broken`
-- b) `find /path -type l -xtype l`
-- c) `find /path -links 0`
-- d) `find /path -type s -broken`
-
-**9. For zero-downtime application deployments, which type of link is typically preferred?**
+**8. For zero-downtime application deployments, which type of link is typically preferred?**
 - a) Hard links, because they're more reliable
 - b) Symbolic links, because you can easily redirect to new versions
 - c) Either type works equally well
 - d) Neither, you should copy files instead
 
-**10. What filesystem limitation affects hard links but not symbolic links?**
+**9. What filesystem limitation affects hard links but not symbolic links?**
 - a) File size restrictions
 - b) Permission requirements
 - c) Must be on the same filesystem
 - d) Cannot be created by regular users
 
-**11. When editing a file through a hard link, what happens to the original file?**
+**10. When editing a file through a hard link, what happens to the original file?**
 - a) The original file remains unchanged
 - b) Both the original and hard link are modified (they're the same file)
 - c) Only the hard link is modified
 - d) The original file is automatically backed up
 
-**12. Which command shows inode numbers to help identify hard links?**
+**11. Which command shows inode numbers to help identify hard links?**
 - a) `ls -l`
 - b) `ls -i`
 - c) `ls -h`
 - d) `ls -ln`
 
-**13. In container environments, what's a best practice for symbolic links?**
+**12. In container environments, what's a best practice for symbolic links?**
 - a) Always use absolute paths
 - b) Avoid symbolic links entirely
 - c) Use relative symbolic links within mounted volumes
 - d) Convert all symbolic links to hard links
 
-**14. What security concern exists with symbolic links in shared directories like /tmp?**
+**13. What security concern exists with symbolic links in shared directories like /tmp?**
 - a) They consume too much disk space
 - b) They can be followed blindly by privileged scripts
 - c) They're automatically deleted by the system
 - d) They require root privileges to create
 
-**15. If you have multiple hard links to a file, how many times is the actual data stored on disk?**
+**14. If you have multiple hard links to a file, how many times is the actual data stored on disk?**
 - a) Once for each hard link
 - b) Twice (original + backup)
 - c) Only once, shared by all hard links
@@ -318,26 +312,23 @@ Editing through symlink.txt also modifies the original data
 **7. c) Unchanged files share the same inode, saving space**  
 *Explanation: Hard links allow multiple backup snapshots to share the same physical data for unchanged files, dramatically reducing storage requirements.*
 
-**8. b) `find /path -type l -xtype l`**  
-*Explanation: This finds symbolic links (-type l) where the target doesn't exist (-xtype l), indicating broken links.*
-
-**9. b) Symbolic links, because you can easily redirect to new versions**  
+**8. b) Symbolic links, because you can easily redirect to new versions**  
 *Explanation: Symbolic links allow you to quickly point /current to a new release directory, enabling instant switches between versions.*
 
-**10. c) Must be on the same filesystem**  
+**9. c) Must be on the same filesystem**  
 *Explanation: Hard links are restricted to the same filesystem, while symbolic links can cross filesystem boundaries.*
 
-**11. b) Both the original and hard link are modified (they're the same file)**  
+**10. b) Both the original and hard link are modified (they're the same file)**  
 *Explanation: Hard links are different names for the same file/inode, so changes through any hard link affect all of them.*
 
-**12. b) `ls -i`**  
+**11. b) `ls -i`**  
 *Explanation: The -i flag displays inode numbers. Files with the same inode number are hard links to each other.*
 
-**13. c) Use relative symbolic links within mounted volumes**  
+**12. c) Use relative symbolic links within mounted volumes**  
 *Explanation: Relative paths within mounted volumes are more portable and less likely to break across container boundaries.*
 
-**14. b) They can be followed blindly by privileged scripts**  
+**13. b) They can be followed blindly by privileged scripts**  
 *Explanation: Malicious users could create symbolic links that point to sensitive files, potentially causing privileged scripts to access unintended locations.*
 
-**15. c) Only once, shared by all hard links**  
+**14. c) Only once, shared by all hard links**  
 *Explanation: All hard links to a file share the same inode and data blocks. The data is stored only once on disk regardless of how many hard links exist.*
