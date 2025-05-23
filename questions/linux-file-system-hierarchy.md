@@ -264,74 +264,9 @@ For DevOps engineers:
 
 ## Quiz
 
-### Multiple-choice questions
-
-1. **Which directory contains essential user command binaries needed for system bootup and repair?**
-   * A) `/usr/bin`
-   * B) `/bin`
-   * C) `/sbin`
-   * D) `/etc`
-
-2. **Where would you find system-wide configuration files?**
-   * A) `/var`
-   * B) `/opt`
-   * C) `/etc`
-   * D) `/usr/local`
-
-3. **What is the primary purpose of the /var directory?**
-   * A) Store system application packages
-   * B) Store variable data such as logs and spool files
-   * C) Mount removable media
-   * D) Store essential shared libraries
-
-4. **Which permission setting gives read and execute permissions to the owner and group, but no permissions to others?**
-   * A) `755`
-   * B) `644`
-   * C) `750`
-   * D) `700`
-
-5. **The setuid permission bit on an executable file allows:**
-   * A) The file to be executed by any user
-   * B) The file to be executed with the permissions of its owner
-   * C) The file to be modified by any user
-   * D) The file to be hidden from regular directory listings
-
-6. **Which directory would you use to install a locally compiled application that shouldn't interfere with the package manager?**
-   * A) `/opt`
-   * B) `/usr/bin`
-   * C) `/usr/local`
-   * D) `/home/user/bin`
-
-7. **Which directory contains virtual files representing system and kernel information?**
-   * A) `/dev`
-   * B) `/proc`
-   * C) `/sys`
-   * D) `/run`
-
-8. **What is the correct ownership and permissions for sensitive configuration files?**
-   * A) `root:root`, `777`
-   * B) `user:user`, `755`
-   * C) `root:root`, `644` or `640`
-   * D) `nobody:nogroup`, `600`
-
-9. **Which is a core principle of Linux filesystem organization?**
-    * A) All configuration should be in XML format
-    * B) All files should be owned by a single user
-    * C) Separation of concerns (system files from user files, etc.)
-    * D) Avoiding hierarchical structure
-
-### Answer Key
-
-1. B - `/bin` contains essential user command binaries needed for system bootup and repair.
-2. C - `/etc` contains system-wide configuration files.
-3. B - `/var` stores variable data including logs, mail queues, and spool files.
-4. C - `750` gives `rwx `(read, write, execute) to owner, `r-x` (read, execute) to group, and `---` (no permissions) to others.
-5. B - The `setuid` bit allows a file to be executed with the permissions of its owner instead of the user running it.
-6. C - `/usr/local` is the standard location for locally compiled software.
-7. B - `/proc` contains virtual files representing system and kernel information, including process details.
-8. C - Sensitive configuration files should typically be owned by `root:root` with `644` (world-readable) or `640` (group-readable) permissions.
-9. C - Separation of concerns is a core principle of Linux filesystem organization
-
+### Questions
+ 
+### Answer key
 ## Next steps
 
 See more [Linux interview questions](https://github.com/jablonskidev/linux-interview-questions/blob/main/README.md).
