@@ -2,6 +2,22 @@
 
 **[Note: This is a work-in-progress draft.]**
 
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#answer)
+- [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#background-information)
+  - [Hard links: shared data](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#hard-links-shared-data)
+  - [Symbolic links: path pointers](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#symbolic-links-path-pointers)
+  - [Creating links](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#creating-links)
+  - [What happens when the original is deleted](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#what-happens-when-the-original-is-deleted)
+  - [Quick comparison](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#quick-comparison)
+  - [Choosing the right type](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#choosing-the-right-type)
+  - [Common use cases](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#common-use-cases)
+  - [Filesystem compatibility](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#filesystem-compatibility)
+  - [Troubleshooting & security](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#troubleshooting--security)
+  - [Container considerations](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#container-considerations)
+  - [Advanced commands](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#advanced-commands)
+  - [File operations through links](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#file-operations-through-links)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md#quiz)
+
 ## Answer
 
 - **Hard links**: Same file, multiple names, same filesystem only
@@ -36,9 +52,7 @@ Directory entries          Inodes                  Data blocks
                            └──────────┘
 ```
 
-### Essential commands & behavior
-
-#### Creating links
+### Creating links
 
 ```bash
 echo "test" > original.txt
@@ -78,13 +92,13 @@ symlink.txt ──▶ "original.txt" ┘         symlink.txt ──▶ "original
 
 ### Choosing the right type
 
-### Use hard links when
+#### Use hard links when
 
 - Files are on the same filesystem
 - You need guaranteed access even if original is deleted
 - Space efficiency is critical (backups, deduplication)
 
-### Use symbolic links when
+#### Use symbolic links when
 
 - Linking across different filesystems
 - Linking to directories
@@ -171,9 +185,7 @@ ls -i
 ln -sf source target
 ```
 
-### Link behavior summary
-
-### File operations through links:
+### File operations through links
 
 ```
 original.txt ──┐
