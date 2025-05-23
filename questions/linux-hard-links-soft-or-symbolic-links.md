@@ -206,3 +206,7 @@ Editing through symlink.txt also modifies the original data
 ### Questions
  
 ### Answer key
+
+## Next steps
+
+See more [Linux interview questions](https://github.com/jablonskidev/linux-interview-questions/blob/main/README.md).
