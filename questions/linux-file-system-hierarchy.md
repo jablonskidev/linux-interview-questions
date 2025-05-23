@@ -165,9 +165,9 @@ Special permission bits:
 
 | Distribution type | Examples | Characteristics |
 |-------------------|----------|----------------|
-| Enterprise Distributions | RHEL, CentOS, SUSE | - Strict FHS adherence<br>- Heavy use of `/etc/sysconfig` for configuration<br>- Clear separation between vendor and local files |
-| Community Distributions | Debian, Ubuntu, Arch | - Quicker adoption of modern filesystem changes<br>- Greater use of `/etc/default` and `/etc/alternatives`<br>- More extensive use of symbolic links |
-| Embedded Distributions | Alpine, BusyBox | - Minimalist hierarchy optimized for size<br>- Combined functionality with fewer directories<br>- Aggressive use of linking for space efficiency |
+| Enterprise distributions | RHEL, CentOS, SUSE | - Strict FHS adherence<br>- Heavy use of `/etc/sysconfig` for configuration<br>- Clear separation between vendor and local files |
+| Community distributions | Debian, Ubuntu, Arch | - Quicker adoption of modern filesystem changes<br>- Greater use of `/etc/default` and `/etc/alternatives`<br>- More extensive use of symbolic links |
+| Embedded distributions | Alpine, BusyBox | - Minimalist hierarchy optimized for size<br>- Combined functionality with fewer directories<br>- Aggressive use of linking for space efficiency |
 
 ### Filesystem evolution trends
 
@@ -179,7 +179,7 @@ Merged `/usr` movement:
 Container influence:
 - Immutable system files
 - Enhanced separation of configuration
-- Read-only /usr with writable overlay
+- Read-only `/usr` with writable overlay
 - Focus on isolation and reproducibility
 
 Cloud-native adaptations:
@@ -259,7 +259,6 @@ For DevOps engineers:
 - Permission structures protect system integrity while enabling appropriate access.
 - Modern trends emphasize immutability, separation of configuration, and containerization.
 - Understanding the principles behind the hierarchy helps adapt to any Linux environment.
-- Understanding the fundamental principles of the Linux file system hierarchy will serve you well regardless of distribution changes or future evolution.
 
 ## Quiz
 
