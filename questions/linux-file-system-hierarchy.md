@@ -1,5 +1,7 @@
 # What is the Linux file system hierarchy and how is it organized?
 
+**[Note: This is a work-in-progress draft.]**
+
 - [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#answer)
 - [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#background-information)
     - [Core directory structure](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#core-directory-structure)
