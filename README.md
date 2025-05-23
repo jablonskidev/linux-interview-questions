@@ -17,3 +17,4 @@ In each article, you will get:
 ## Questions
 
 1. [What is the Linux file system hierarchy and how is it organized?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md)
+2. [What is the difference between hard links and soft/symbolic links?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-hard-links-soft-or-symbolic-links.md)
