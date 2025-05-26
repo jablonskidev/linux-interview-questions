@@ -1,5 +1,7 @@
 # How do you check system resource usage in Linux?
 
+**[Note: This is a work-in-progress draft.]**
+
 ## Quick Answer
 
 Use these essential commands to check Linux system resources:
