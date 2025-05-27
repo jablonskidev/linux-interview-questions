@@ -4,7 +4,7 @@
 
 This is for Linux users who want an efficient way to prepare for interviews.
 
-This is not for learners who are new to Linux. To keep the articles short and skimmable, I did not break down terms and concepts enough for true beginners.
+This is not for learners who are new to Linux. To keep the articles short and skimmable, I did not break down terms and concepts enough for beginners. The articles are intended for reviewing rather than learning.
 
 ## What you will get
 
