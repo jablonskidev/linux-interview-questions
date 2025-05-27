@@ -4,7 +4,7 @@
 
 ## Answer
 
-Inodes are data structures in Linux filesystems that store file metadata - think of them as a file's "ID card."
+Inodes are data structures in Linux filesystems that store file metadata.
 
 ## Background information
 
