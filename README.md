@@ -26,7 +26,7 @@ In each article, you will get:
 6. [What is the difference between a daemon and a normal process?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-daemon-vs-process.md)
 7. [What are file permissions in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-permissions.md)
 8. [What are inodes in Linux filesystems?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-inodes.md)
-9. [What are partitions in Linux and what are they for?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-partitions.md)
+9. [What are partitions in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-partitions.md)
 10. [How do you schedule tasks in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-schedule-tasks.md)
 11. [What is a shell script and how would you create one?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-shell-script.md)
 12. [What is the difference between sudo and su in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-sudo-vs-su.md)
