@@ -31,4 +31,3 @@ In each article, you will get:
 11. [How do you schedule tasks in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-schedule-tasks.md)
 12. [What is a shell script and how would you create one?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-shell-script.md)
 13. [What is the difference between sudo and su in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-sudo-vs-su.md)
-14. [How do you check system resource usage in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-system-resource-usage.md)
