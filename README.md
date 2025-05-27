@@ -24,7 +24,7 @@ In each article, you will get:
 4. [What happens during the boot process in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md)
 5. [What is the difference between bash shell built-in commands and external commands?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-built-in-vs-external-commands.md)
 6. [What is the difference between a daemon and a normal process?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-daemon-vs-process.md)
-7. [What are file permissions in Linux and how do they work?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-permissions.md)
+7. [What are file permissions in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-permissions.md)
 8. [How do you find and kill processes in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-find-kill-processes.md)
 9. [What are inodes in Linux filesystems?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-inodes.md)
 10. [How would you troubleshoot network connectivity issues in Linux?](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-network-connectivity.md)
