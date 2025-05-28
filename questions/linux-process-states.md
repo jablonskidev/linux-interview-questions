@@ -1,6 +1,12 @@
 # What are the common process states in linux?
 
-**[Note: This is a work-in-progress draft.]**
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-process-states.md#answer)
+- [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-process-states.md#background-information)
+  - [Process states table](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-process-states.md#process-states-table)
+  - [How to check process states](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-process-states.md#how-to-check-process-states)
+  - [Common modifiers](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-process-states.md#common-modifiers)
+  - [Red flags to watch for](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-process-states.md#red-flags-to-watch-for)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-process-states.md#quiz)
 
 ## Answer
 Linux processes have six main states: Running (R), Sleeping (S/D), Stopped (T), Zombie (Z), and Idle (I).
@@ -37,4 +43,23 @@ Linux processes have six main states: Running (R), Sleeping (S/D), Stopped (T), 
 
 ### Multiple-choice questions
 
+1. Linux processes have this main main states:
+- a. 4
+- b. 5
+- c. 6
+
+2. The symboles for Interruptible Sleep and Uninterruptible Sleep are:
+- a. S and Z
+- b. I and S
+- c. S and D
+
+3. Too many Zombies indidates:
+- a. Parent processes not cleaning up children
+- b. I/O bottlenecks
+- c. Hardware issues
+
 ### Answer key
+
+- 1: c
+- 2: c
+- 3: a
