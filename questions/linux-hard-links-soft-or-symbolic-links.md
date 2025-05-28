@@ -47,6 +47,6 @@ Hard links create multiple names for the same file data, while symbolic links cr
 
 ### Answer key
 
-- 1. False
-- 2. True
-- 3. True 
+- 1: False
+- 2: True
+- 3: True 
