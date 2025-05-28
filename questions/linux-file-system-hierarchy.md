@@ -1,8 +1,14 @@
 # What is the Linux file system hierarchy?
 
-**[Note: This is a work-in-progress draft.]**
-
-## Answer
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#answer)
+- [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#background-information)
+  - [Core system directories](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#core-system-directories)
+  - [Configuration and variable data](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#configuration-and-variable-data)
+  - [User and application areas](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#user-and-application-areas)
+  - [Virtual file systems](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#virtual-file-systems)
+  - [Mount points](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#mount-points)
+  - [Design principles](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#design-principles)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-system-hierarchy.md#quiz)
 
 The Linux file system hierarchy is a standardized tree structure defined by the Filesystem Hierarchy Standard (FHS) that starts from the root directory (/) and organizes all files and directories in a consistent manner across distributions.
 
@@ -72,4 +78,23 @@ These directories don't contain real files but provide kernel interfaces:
 
 ### Multiple-choice questions
 
+1. The file system tree structure starts at the:
+- a. home directory
+- b. root directory
+- c. boot directory
+
+2. Essential system files are in:
+- a. bin
+- b. sbin
+- c. bin and sbin
+
+3. dev is for:
+- a. development
+- b. devices
+- c. devel
+
 ### Answer key
+
+- 1: b
+- 2: c
+- 3: b
