@@ -1,6 +1,15 @@
 # What happens during the boot process in Linux?
 
-**[Note: This is a work-in-progress draft.]**
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#answer)
+- [Background informartion](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#background-information)
+  - [1. BIOS/UEFI (2-10 seconds)](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#1-biosuefi-2-10-seconds)
+  - [2. BOOTLOADER (1-3 seconds)](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#2-bootloader-1-3-seconds)
+  - [3. KERNEL INITIALIZATION (5-15 seconds)](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#3-kernel-initialization-5-15-seconds)
+  - [4. INIT SYSTEM (2-5 seconds)](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#4-init-system-2-5-seconds)
+  - [5. SERVICE STARTUP (10-60 seconds)](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#5-service-startup-10-60-seconds)
+  - [6. USER SPACE (1-5 seconds)](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#6-user-space-1-5-seconds)
+  - [Troubleshooting](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#troubleshooting)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-boot-process.md#quiz)
 
 ## Answer
 
@@ -60,4 +69,23 @@ Most boot issues occur during stages 2 (bootloader problems) or 5 (service failu
 
 ### Multiple-choice questions
 
+1. Network connections start in:
+- a. User space
+- b. Service startup
+- c. BIOS/UEFI
+
+3. Most boot issues occur due to:
+- a. Bootloader problems or service failures
+- b. Hardware detection or kernerl initialization
+- c. Firmware checks or init systems 
+
+3. At the service startup stage:
+- a. The login screen appears
+- b. GRUB loads and presents boot menu
+- c. Essential system services start running
+
 ### Answer key
+
+- 1: b
+- 2: a
+- 3: c
