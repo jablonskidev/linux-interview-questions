@@ -1,6 +1,8 @@
 # What is the difference between bash shell built-in commands and external commands?
 
-**[Note: This is a work-in-progress draft.]**
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-built-in-vs-external-commands.md#answer)
+- [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-built-in-vs-external-commands.md#background-information)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-built-in-vs-external-commands.md#quiz)
 
 ## Answer
 
@@ -24,6 +26,22 @@ The distinction matters because built-ins execute faster and can affect your she
 
 ## Quiz
 
-### Multiple-choice question
+### Multiple-choice questions
+
+1. Bash shell built-in commands include:
+- a. `cd`, `echo`
+- b. `ls`, `grep`
+
+2. External commands are:
+- a. Faster
+- b. Slower
+
+3. External commands can modify the parent shell:
+- a. True
+- b. False
 
 ### Answer key
+
+- 1:a
+- 2: b
+- 3: b
