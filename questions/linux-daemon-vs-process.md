@@ -1,6 +1,8 @@
 # What is the difference between a daemon and a normal process?
 
-**[Note: This is a work-in-progress draft.]**
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-daemon-vs-process.md#answer)
+- [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-daemon-vs-process.md#background-information)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-daemon-vs-process.md#quiz)
 
 ## Answer
 
@@ -10,20 +12,6 @@ A daemon is a background system process that runs continuously without user inte
 
 ### Key differences
 
-Daemons:
-- Background
-- Always running
-- No user input
-- System services
-- Examples: `sshd`, `httpd`, `mysqld`
-
-Normal processes:
-- Foreground
-- User-controlled
-- Interactive
-- Session-based
-- Examples: `ls`, `vim`, `grep`
-
 | Aspect | Daemon process | Normal process |
 |--------|----------------|----------------|
 | **Execution** | Background | Foreground |
@@ -31,23 +19,38 @@ Normal processes:
 | **Lifespan** | Boot to shutdown | Dies with session |
 | **Control** | System managed | User controlled |
 | **Signals** | No Ctrl+C/Ctrl+Z | Responds to keyboard |
-
-### Technical details
+| **Examples** | `sshd`, `httpd`, `mysqld` | `ls`, `vim`, `grep` |
 
 Daemons:
-- **Detached** from controlling terminal
-- **Adopted** by init/systemd (PID 1)
-- **Close** stdin/stdout/stderr or redirect to logs
-- **Change** working directory to root (/)
-- **Create** PID files to prevent duplicates
+- Detached from controlling terminal
+- Adopted by init/systemd (PID 1)
+- Close stdin/stdout/stderr or redirect to logs
+- Change working directory to root (/)
+- Create PID files to prevent duplicates
 
 Normal processes:
-- **Inherit** environment from parent
-- **Display** output to terminal
-- **Terminate** when parent dies or session ends
+- Inherit environment from parent
+- Display output to terminal
+- Terminate when parent dies or session ends
 
 ## Quiz
 
 ### Multiple-choice questions
 
+1. Daemons run in the background for system services:
+- a: True
+- b: False
+
+2. Normal processes are interactive:
+- a: True
+- b: False
+
+3. Normal processes live from boot to shutdown:
+- a: True
+- b: False
+
 ### Answer key
+
+- 1: a
+- 2: a
+- 3: b
