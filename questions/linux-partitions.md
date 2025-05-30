@@ -1,6 +1,10 @@
 # What are partitions in Linux?
 
-**[Note: This is a work-in-progress draft.]**
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-partitions.md#answer)
+- [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-partitions.md#backround-information)
+  - [Purpose](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-partitions.md#purpose)
+  - [Common partition types](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-partitions.md#common-partition-types)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-partitions.md#quiz)
 
 ## Answer
 
@@ -36,4 +40,15 @@ Start simple with basic partitions, then add complexity as needed for your speci
 
 ### Multiple-choice questions
 
+1. Partitions are logical divisions of physical storage that create independent sections on the same device:
+- a: True
+- b: False
+
+2. Data is an essential partition:
+- a: True
+- b: False
+
 ### Answer key
+
+- 1: a
+- 2: b
