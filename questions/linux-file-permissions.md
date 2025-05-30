@@ -1,7 +1,10 @@
 # What are file permissions in Linux?
 
-**[Note: This is a work-in-progress draft.]**
-
+- [Answer](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-permissions.md#answer)
+- [Background information](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-permissions.md#background-information)
+  - [Permission types](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-permissions.md#permission-types)
+  - [User categories](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-permissions.md#user-categories)
+- [Quiz](https://github.com/jablonskidev/linux-interview-questions/blob/main/questions/linux-file-permissions.md#quiz)
 ## Answer
 
 File permissions in Linux control who can read, write, or execute files and directories. They're a fundamental security feature that determines access rights for different users.
@@ -26,4 +29,16 @@ Permissions are set for three categories of users:
 
 ### Multiple-choice questions
 
+1. File permissions control who can:
+- a: Read, write, or execute files
+- b: Read, write, or execute files and directories
+
+2. The permission type for deleting files is:
+- a: r
+- b: w
+- c: x
+
 ### Answer
+
+- 1: b
+- 2: w
