@@ -74,7 +74,7 @@ Most boot issues occur during stages 2 (bootloader problems) or 5 (service failu
 - b. Service startup
 - c. BIOS/UEFI
 
-3. Most boot issues occur due to:
+2. Most boot issues occur due to:
 - a. Bootloader problems or service failures
 - b. Hardware detection or kernerl initialization
 - c. Firmware checks or init systems 
